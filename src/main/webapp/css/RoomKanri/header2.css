@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+header{
+    width               :   100vw;
+    background-color    :   white;
+}
+
+.header-inner {
+    display: flex;
+    align-items     :   center;
+    justify-content :   space-between;
+    margin          :   0vw auto;
+    padding         :   0px 40px;
+    height          :   70px;
+    font-size       :   15px;
+}
+
+.h1 {
+    margin  :   0 auto 0 0;
+}
+
+.header-nav1 {
+    display         :   flex;
+    align-items     :   center;
+    justify-content :   flex-end;
+}
+
+.header-nav-item {
+    align-items :   center;
+    margin-left :   6px;
+}
+
+.box-nav {
+    width       :   100vw;
+    font-size   :   17px;
+}
+
+ul {
+    padding             :   0px;
+    line-height         :   50px;
+    list-style          :   none;
+    background-color    :   #3a3a3a;
+}
+
+li {
+    text-align  :   center;
+}
+
+li a {
+    text-decoration     :   none;
+    color               :   #fff;
+    display             :   block;
+}
+
+li:hover {
+    background-color    :   #7a7a7a;
+    cursor              :   pointer;
+}
+
+input {
+    height              :   35px;
+    width               :   200px;
+    padding             :   0px 12px;
+    margin              :   0px;
+    font-size           :   16px;
+    border              :   solid 1px #ccc;
+    border-radius       :   5px;
+    outline             :   0;
+    transition          :   0.3s;
+    -webkit-appearance  :   none;
+}
+
+input:focus {
+    border  :    solid 1px #8200b5;
+}
+
+button {
+    display         :   inline-block;
+    padding         :   6px 15px;
+    font-size       :   14px;
+    color           :   #8200b5;
+    text-decoration :   none;
+    user-select     :   none;
+    border          :   #8200b5 1px solid;
+    border-radius   :   3px;
+    transition      :   0.4s ease;
+}
+
+button:hover {
+    color       :   #fff;
+    background  :   #8200b5;
+}
+
+
+
+@media screen and (min-width:850px){
+    header{
+        position    :   fixed;
+        top         :   0;
+        left        :   0;    
+    }
+    
+    .h1-2{
+        display :   none;
+    }
+
+    .header-nav1{
+        width   :   17vmax;
+    }
+
+    
+    ul{
+        display             :   flex;
+        justify-content     :   center;
+        margin              :   0px auto;
+    }
+
+    li {
+        width   :   250px;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:849.9px) {
+    .header-nav1{
+        width   :   30vw;
+    }
+
+    .box-nav {
+        border-bottom   :   none;
+    }
+
+    ul{
+        margin  :   0px;
+    }
+        
+    li {
+        width           :   100vw;
+        text-align      :   center;
+        border-bottom   :   solid 1px #7a7a7a;
+    }
+}

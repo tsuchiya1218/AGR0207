@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.apo {
+    display: block;
+    margin: 50px 30px;
+    font-size: 18px;
+}
+
+.apo select, .apo input {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+form {
+    margin: 50px 0px;
+}
+
+form p{
+    font-size: 14px;
+}
+
+.time, .room{
+    width: 100%;
+    text-align      :   center;
+    border-collapse :   collapse;
+    border-spacing  :   0;
+    background-color: #fff;
+}
+
+.time tr, .room tr {
+    border-top    :   solid 1px #7a7a7a;
+}
+
+.time tr:first-child, .room tr:first-child {
+    border-top: none;
+}
+
+.time th, .room th {
+    padding             :   10px 0px;
+    border-right        :   solid 1px #7a7a7a;
+}
+
+.time th:last-child, .time td:last-child, .room th:last-child, .room td:last-child {
+    border-right    :   none;
+}
+
+.time td {
+    padding         :   0px;
+    width: 45px;
+    height: 45px;
+    border-right    :   solid 1px #7a7a7a;
+    font-size: 20px;
+}
+
+.room {
+    font-size: 16px;
+}
+
+.room td {
+    padding: 5px;
+    border-right    :   solid 1px #7a7a7a;
+}
+
+.room td:first-child {
+    width: 20px;
+}
+
+.dark {
+    background-color: #ddd;
+}
+
+.room label{
+    display: block;
+    width: 100%;
+}
+
+.time label {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 100%;
+}
+
+.time input[type=radio] {
+    display: none;
+}
+
+.time input[type="radio"]:checked + label {
+    background-color: #ffa399;
+    color: #fff;
+}

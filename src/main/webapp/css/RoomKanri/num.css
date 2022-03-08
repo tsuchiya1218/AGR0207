@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.num {
+    text-align      :   center;
+    border-collapse :   collapse;
+    border-spacing  :   0;
+}
+   
+.num tr:nth-child(2n+1) {
+    background-color    :   #F0F0F0;
+}
+
+.tr3 {
+    height: 70px;
+}
+
+.num th {
+    padding         :   10px;
+    background      :   #7a7a7a;
+    border-right    :   solid 1px #3a3a3a;
+    color           :   #fff;
+    font-weight     :   normal;
+}
+
+.num th:last-child {
+    border-right    :   none;
+}
+
+.th1{
+    width: 20%;
+}
+
+.th2{
+    width: 30%;
+}
+
+.num td {
+    padding         :   5px ;
+    border-right    :   solid 1px #3a3a3a; 
+}
+
+.num td:last-child {
+    border-right    :   none;
+}
+
+.num input[name="num"]{
+    width       :   75px;
+    height: 30px;
+    font-size   :   16px;
+}
+
+.num input[name="name"]{
+    width       :   150px;
+    height: 30px;
+    font-size   :   16px;
+}
+
+@media screen and (min-width:850px) {
+    .tr2{
+        display :   none;
+    }
+
+    .num {
+        width   :   80%;
+        margin  :   0 auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:849.9px) {
+    .tr1{
+        display :   none;
+    }
+
+    .num{
+        width   :  100%;
+    }
+}

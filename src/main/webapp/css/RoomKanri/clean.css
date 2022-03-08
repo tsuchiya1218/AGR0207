@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.clean {
+    text-align      :   center;
+    border-collapse :   collapse;
+    border-spacing  :   0;
+}
+   
+.clean tr:nth-child(2n+1) {
+    background-color    :   #F0F0F0;
+}
+
+.clean th {
+    padding         :   10px;
+    background      :   #7a7a7a;
+    border-right    :   solid 1px #3a3a3a;
+    color           :   #fff;
+    font-weight     :   normal;
+}
+
+.clean th:last-child {
+    border-right    :   none;
+}
+
+.clean td {
+    padding         :   5px ;
+    border-right    :   solid 1px #3a3a3a; 
+}
+
+.clean td:last-child {
+    border-right    :   none;
+}
+
+.clean input{
+    width       :   50px;
+    height: 28px;
+    font-size   :   18px;
+}
+
+@media screen and (min-width:850px) {
+    .tr2{
+        display :   none;
+    }
+
+    .clean {
+        width   :   80%;
+        margin  :   0 auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:849.9px) {
+    .tr1{
+        display :   none;
+    }
+
+    .clean{
+        width   :  100%;
+    }
+}

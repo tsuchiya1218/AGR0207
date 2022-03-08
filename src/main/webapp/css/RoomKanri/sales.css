@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+select {
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap   :   wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.sales {
+    margin: 50px 0px;
+}
+
+.sales p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.today{
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.daily{
+    width: 340px;
+}
+
+
+table{
+    border-spacing: 0;
+}
+  
+table th{
+    border-bottom: solid 2px #fb5144;
+    padding: 10px 0;
+    width: 120px;
+}
+  
+table td{
+    border-bottom: solid 2px #ddd;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:850px){
+    table {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:849.9px) {
+    table {
+        width: 70%;
+    }
+}

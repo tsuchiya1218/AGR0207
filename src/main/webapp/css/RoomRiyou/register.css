@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.register{
+    width: 150px;
+    margin-right: 30px;
+}
+
+input[name="name"]{
+    width: 100px;
+}
+
+input[name="birth"], input[name="postcode1"], input[name="postcode2"],input[name="tel1"],input[name="tel2"],input[name="tel3"], input[name="code"]{
+    width: 60px;
+}
+
+input[name="address"], input[name="mail"]{
+    width: 200px;
+}
+
+.table1 td {
+    width: 75%;
+}
+
+.table2 td {
+    width: 60%;
+}
+
+.table1 span, .table2 span{
+    color: red;
+}
+
+.table1, .table2, .table3{
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.table1 th, .table2 th, .table3 th{
+    padding:10px;
+    text-align: left;
+    vertical-align: top;
+    background-color: #FB930080;
+    border-left: 1px solid #99887a;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #ff9500b2;
+    border-bottom: 1px solid #ccc;
+}
+
+.table1 td, .table2 td, .table3 td{
+    padding:10px;
+    background-color: #fafafa;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.table3 tr:last-child {
+    text-align: right;
+    font-weight: bold;
+}

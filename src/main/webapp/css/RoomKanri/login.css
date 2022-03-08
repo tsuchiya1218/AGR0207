@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    padding :   120px 0px 0px;
+}
+
+header{
+    position            :   fixed;
+    top                 :   0;
+    left                :   0;    
+}
+
+.login{
+    margin: 50px 0px;
+}
+p {
+    text-align: center;
+}
+
+input{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px;
+    width: 180px;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    padding         :   6px 15px;
+    font-size       :   18px;
+    color           :   #00b5ad;
+    text-decoration :   none;
+    user-select     :   none;
+    border          :   #00b5ad 1px solid;
+    border-radius   :   3px;
+    transition      :   0.4s ease;
+}
+
+button:hover {
+    color       :   #fff;
+    background  :   #00b5ad;
+}
